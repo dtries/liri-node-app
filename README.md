@@ -49,7 +49,7 @@ The assignment was to implement Node JS to create a LIRI bot, similiar to iPhone
             * *If a movie title is not entered (e.g., node liri.js movie-this), the search will default to "Mr. Nobody".
 
       1. do-what-it-says (e.g., node liri.js do-what-it-says)
-          * Reads in text from a file titled random.txt, parses the informmation, builds information need for the search, and then runs the appropriate search through liri.
+          * Reads in text from a file titled random.txt, parses the informmation, builds information needed for the search, and then runs the appropriate search through liri.
           
     ### Examples of wording in random.txt file for the three types of searches
      * To run an artist concert search: concert-this,kid rock
