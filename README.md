@@ -24,38 +24,44 @@ The assignment was to implement Node JS to create a LIRI bot, similiar to iPhone
           * If artists name is left blank a default message is displayed indicating concert information cannot be found and to try your entry again.
 
      1. spotify-this-song song name (e.g., node liri.js spotify-this-song enter sandman)
-          * Displays the following information related to the song in terminal/bash window:
+          * Displays listing of tracks with the following information in terminal/bash window:
 
             * Artist(s)
-            * Song Title
+            * Track Title
             * A preview link for the song from Spotify
             * Album on which the song appears
             
             * *If a song title is not entered (e.g., node liri.js spotify-this-song), the search will default to "I want it that way" by The Backstreet Boys.
 
-     1. movie-this <movie name>
-Shows the following information in terminal/bash.
+     1. movie-this movie name (e.g., node liri.js movie-this raiders of the lost ark)
+          * Displays the following information about the movie in terminal/bash window:
 
-Title of the movie.
-Year the movie came out.
-IMDB Rating of the movie.
-Country where the movie was produced.
-Language of the movie.
-Plot of the movie.
-Actors in the movie.
-Rotten Tomatoes Rating.
-Rotten Tomatoes URL.
-Or if no movie is passed through, it will default to "Mr. Nobody"
+            * Title
+            * Release Year
+            * IMDB Rating 
+            * Rotten Tomatoes Rating or Metacritic Rating (if Rotten Tomatoes is not available)
+            * Production Country(ies)
+            * Languages used in the film
+            * Plot Synopsis.
+            * Main Actors
 
-node liri.js do-what-it-says
-Takes the text from random.txt and runs the song through spotify-this-song command
-Tech used
-Node.js
-Twitter NPM Package - https://www.npmjs.com/package/twitter
-Spotify NPM Package - https://www.npmjs.com/package/spotify
-Request NPM Package - https://www.npmjs.com/package/request
-Prerequisites
-- Node.js - Download the latest version of Node https://nodejs.org/en/
+            * *If a movie title is not entered (e.g., node liri.js movie-this), the search will default to "Mr. Nobody".
+
+      1. do-what-it-says (e.g., node liri.js do-what-it-says)
+          * Reads in text from a file titled random.txt, parses the informmation, builds information need for the search, and then runs the appropriate search through liri.
+          
+## Tech Employed
+* Node.js
+* Axios.js
+* Spotify NPM Package - https://www.npmjs.com/package/spotify  (To access the SPOTIFY API)
+* fs NPM Package - https://www.npmjs.com/package/fs
+* moment NPM Package - https://www.npmjs.com/package/moment
+* dotenv NPM Package - https://www.npmjs.com/package/dotenv
+* OMDB API - http://www.omdbapi.com/
+* Bands in Town API - http://www.artists.bandsintown.com/bandsintown-api 
+
+## Prerequisites
+* Node.js - The latest version of Node is available at: https://nodejs.org/en/
 Built With
 VS Code - Text Editor
 Authors
