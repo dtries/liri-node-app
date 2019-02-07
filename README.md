@@ -51,13 +51,13 @@ The assignment was to implement Node JS to create a LIRI bot, similiar to iPhone
       1. do-what-it-says (e.g., node liri.js do-what-it-says)
           * Reads in text from a file titled random.txt, parses the informmation, builds information need for the search, and then runs the appropriate search through liri.
           
-       ### Example of wording in random.txt file for the three types of searches
-           1. To run an artist concert search:
-              * concert-this,kid rock
-           2. To run an movie title search:
-              * movie-this,batman
-           3. To run a spotify song title search:
-              * spotify-this-song,I want it that way
+    ### Example of wording in random.txt file for the three types of searches
+        1. To run an artist concert search:
+           * concert-this,kid rock
+        2. To run an movie title search:
+           * movie-this,batman
+        3. To run a spotify song title search:
+            * spotify-this-song,I want it that way
                      
 ## Tech Employed
 * Node.js - (see below)
