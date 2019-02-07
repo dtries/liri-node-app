@@ -12,10 +12,10 @@ The assignment was to implement Node JS to create a LIRI bot, similiar to iPhone
 * *do-what-it-says*
 
 
-
-Getting Started
-Clone down repo.
-Run command 'npm install' in Terminal or GitBash
+ 
+## Getting Started
+1. Clone repo to your machine.
+1. Enter command 'npm install' in GitBash or your terminal.
 Run command 'node liri.js' or one of the commands below.
 What Each Command Does
 node liri.js my-tweets
