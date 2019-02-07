@@ -54,10 +54,10 @@ The assignment was to implement Node JS to create a LIRI bot, similiar to iPhone
     ### Example of wording in random.txt file for the three types of searches
         1. To run an artist concert search:
            * concert-this,kid rock
-        2. To run an movie title search:
+        1. To run an movie title search:
            * movie-this,batman
-        3. To run a spotify song title search:
-            * spotify-this-song,I want it that way
+        31 To run a spotify song title search:
+           * spotify-this-song,I want it that way
                      
 ## Tech Employed
 * Node.js - (see below)
