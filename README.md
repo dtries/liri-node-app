@@ -56,7 +56,7 @@ The assignment was to implement Node JS to create a LIRI bot, similiar to iPhone
            * concert-this,kid rock
         1. To run an movie title search:
            * movie-this,batman
-        31 To run a spotify song title search:
+        1. To run a spotify song title search:
            * spotify-this-song,I want it that way
                      
 ## Tech Employed
