@@ -19,8 +19,9 @@ The assignment was to implement Node JS to create a LIRI bot, similiar to iPhone
    * This will install the proper js package files from a package JSON file.
 1. Enter 'node liri.js' followed by a space and then one of the commands below (e.g., node liri.js concert-this).
    * What Each Command Does
-     1. concert-this <artists name>
-          * Displays a listing o in the window.
+     1. concert-this artists name (e.g., node liri.js concert-this kid rock)
+          * Displays a listing of upcoming concert events for the artist specified.
+          * If artists name is left blank a default message is displayed indicating concert information cannot be found and to try your entry again.
 node liri.js spotify-this-song <song name>
 Shows the following information about the song in terminal/bash window.
 
