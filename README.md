@@ -18,8 +18,8 @@ The assignment was to implement Node JS to create a LIRI bot, similiar to iPhone
 1. Enter 'npm install' in GitBash or your terminal.
    1. This will install the proper js package files from a package JSON file.
 1. Enter 'node liri.js' followed by one of the commands below.
-* What Each Command Does
-  * node liri.js my-tweets
+   * What Each Command Does
+     * node liri.js my-tweets
 Displays my last 20 tweets and when they were created in terminal/bash window.
 node liri.js spotify-this-song <song name>
 Shows the following information about the song in terminal/bash window.
