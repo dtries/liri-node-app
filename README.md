@@ -11,7 +11,8 @@ The assignment was to implement Node JS to create a LIRI bot, similiar to iPhone
 
 * *do-what-it-says*
 
-
+## Narrated Video Demonstration
+[YouTube](https://youtu.be/p6vU3wdW2UQ)
  
 ## Getting Started
 1. Clone repo to your machine.
