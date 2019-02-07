@@ -3,13 +3,13 @@
 
 The assignment was to implement Node JS to create a LIRI bot, similiar to iPhone's SIRI, but using typed language input instead of voice. The LIRI app uses the command line and node.js package to create search queries and return data based on one of four commands:
 
-*concert-this
+*concert-this*
 
-*movie-this
+*movie-this*
 
-*spotify-this-song
+*spotify-this-song*
 
-*do-what-it-says
+*do-what-it-says*
 
 
 
