@@ -33,7 +33,7 @@ The assignment was to implement Node JS to create a LIRI bot, similiar to iPhone
             
             * *If a song title is not entered (e.g., node liri.js spotify-this-song), the search will default to "I want it that way" by The Backstreet Boys.
 
-node liri.js movie-this <movie name>
+     1. movie-this <movie name>
 Shows the following information in terminal/bash.
 
 Title of the movie.
