@@ -51,8 +51,8 @@ The assignment was to implement Node JS to create a LIRI bot, similiar to iPhone
           * Reads in text from a file titled random.txt, parses the informmation, builds information need for the search, and then runs the appropriate search through liri.
           
 ## Tech Employed
-* Node.js
-* Axios.js
+* Node.js - (see below)
+* Axios.js NPM Package - https://www.npmjs.com/package/axios
 * Spotify NPM Package - https://www.npmjs.com/package/spotify  (To access the SPOTIFY API)
 * fs NPM Package - https://www.npmjs.com/package/fs
 * moment NPM Package - https://www.npmjs.com/package/moment
@@ -62,6 +62,9 @@ The assignment was to implement Node JS to create a LIRI bot, similiar to iPhone
 
 ## Prerequisites
 * Node.js - The latest version of Node is available at: https://nodejs.org/en/
-Built With
+
+## Built With
 VS Code - Text Editor
-Authors
+## Authored and Maintained By:
+Dennis Ries
+
