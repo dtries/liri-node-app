@@ -68,3 +68,11 @@ VS Code - Text Editor
 ## Authored and Maintained By:
 Dennis Ries
 
+Contact: dtries@gmail.com
+
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+
